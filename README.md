@@ -1,5 +1,5 @@
 
-<h1 align="left"><b>Hi , I'm Ali Hamza Malik   </b><img src = "https://github.com/alirafiqmalik/alirafiqmalik/blob/main/aboutme.gif" width = 50px></h1>
+<h1 align="left"><b>Hi , I'm Ali Hamza Malik   </b><img src = "https://github.com/alirafiqmalik/alirafiqmalik/blob/main/profile.gif" width = 50px></h1>
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alihamzamalik/)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amalik.bee19seecs@seecs.edu.pk)
