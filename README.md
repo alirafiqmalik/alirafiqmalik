@@ -31,11 +31,14 @@
   
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
 
-<p align = "center">
-<!-- GitHub Stats -->
-<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true" /> 
+<p align="center">
+  <!-- GitHub Stats -->
+  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true" />
 
-<!-- Most Used Languages -->
-<img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&layout=compact"/>
+  <!-- Most Used Languages -->
+  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&layout=compact" />
+
+  <!-- Contributed Repos -->
+  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/wakatime?username=alirafiqmalik&layout=compact&hide_border=true" />
 </p>
 -----
