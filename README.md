@@ -9,11 +9,11 @@
 <br> -->
 
 ## <picture><img src ="https://github.com/alirafiqmalik/alirafiqmalik/blob/main/aboutme.gif" width = 50px></picture> **About me**
-- 🎓 In my Final Year of Bachelor's in Electrical Engineering at the National University of Sciences and Technology, Islamabad, Pakistan.
+- 🎓 I have started my Graduate Research Assistant at University of Massachusetts Amherst, USA.
 
 - ⚡ I have experience in Embedded Systems, Hardware and Software Development with knowledge of Machine Learning.     
 
-- 🔭 I am currently working on Securing the IC Supply Chain using Logic Locking and Event Driven UAV Swarm Configuration Protocols.
+- 🔭 I wil be working on Network Security and Cutting Edge Communication Protocols.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Languages and Tools</b>
