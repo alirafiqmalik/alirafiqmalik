@@ -33,10 +33,11 @@
 
 <p align="center">
   <!-- GitHub Stats -->
-  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&layout=compact&exclude_repo=test-repo,sample-repo&cache_seconds=1800&v=2" />
+  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true" />
+
 
 
   <!-- Most Used Languages -->
-  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&layout=compact&exclude_repo=QVerif_v2,QPMC,QExp" />
+  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&layout=compact&exclude_repo=QVerif_v2,QPMC,QExp&cache_seconds=1800&v=2" />
 </p>
 
