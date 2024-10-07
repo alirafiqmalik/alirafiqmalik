@@ -13,7 +13,7 @@
 
 - ⚡ I have experience in Embedded Systems, Hardware and Software Development with knowledge of Machine Learning.     
 
-- 🔭 I wil be working on Network Security and Cutting Edge Communication Protocols.
+- 🔭 I am currently working on Formal Verification of Quantum Key Distribution Protocols.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Languages and Tools</b>
