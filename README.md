@@ -45,7 +45,7 @@ Analysis of deployed protocols — TLS/KEMTLS, Bluetooth, eSIM — and ML-driven
 ## 📈 GitHub stats
 
 <p>
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&theme=dark&bg_color=0d1117" />
+<img height="165" src="./profile/stats.svg" alt="GitHub statistics" />
 <img height="165" src="./profile/metrics.languages.recent.svg" alt="Recently used languages" />
 </p>
 
