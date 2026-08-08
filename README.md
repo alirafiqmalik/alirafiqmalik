@@ -19,11 +19,10 @@
 
 ### 📐 Formal methods
 
-- [ach-model-checking](https://github.com/alirafiqmalik/ach-model-checking) — Check symbolic security proofs with Tamarin, nuXmv, TLA+, and Lean 4.
+- [ach-model-checking](https://github.com/alirafiqmalik/ach-model-checking) — Model checking ACH Banking Payment Specifications.
 
 ### 🛡️ Systems & security
 
-- [lazyssl_constant](https://github.com/alirafiqmalik/lazyssl_constant) — Analyze TLS and KEMTLS with instrumented BoringSSL.
 - [SDN-Based-Machine-Learning-IDS](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS) — Detect network attacks with machine learning.
 
 ## 🛠️ Skills
