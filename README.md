@@ -12,14 +12,19 @@
 
 ## 🔬 Research threads
 
-#### ⚛️ Quantum
-Security of quantum key distribution — modelling QKD protocols and proving their guarantees hold: [simQKD](https://github.com/alirafiqmalik/simQKD) · [IEEE QCE demo artifact](https://github.com/alirafiqmalik/qkd-fv-ieee-qce-demo)
+### ⚛️ Quantum
 
-#### 📐 Formal methods
-Machine-checked, symbolic security proofs of cryptographic protocols with Tamarin, nuXmv, TLA+, and Lean 4: [ach-model-checking](https://github.com/alirafiqmalik/ach-model-checking)
+- [simQKD](https://github.com/alirafiqmalik/simQKD) — Simulate quantum key distribution protocols.
+- [qkd-fv-ieee-qce-demo](https://github.com/alirafiqmalik/qkd-fv-ieee-qce-demo) — Machine-checked QKD proofs for the IEEE QCE artifact.
 
-#### 🛡️ Systems & security
-Analysis of deployed protocols — TLS/KEMTLS, Bluetooth, eSIM — and ML-driven network defense: [lazyssl_constant](https://github.com/alirafiqmalik/lazyssl_constant) (instrumented BoringSSL) · [SDN ML-IDS](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS)
+### 📐 Formal methods
+
+- [ach-model-checking](https://github.com/alirafiqmalik/ach-model-checking) — Check symbolic security proofs with Tamarin, nuXmv, TLA+, and Lean 4.
+
+### 🛡️ Systems & security
+
+- [lazyssl_constant](https://github.com/alirafiqmalik/lazyssl_constant) — Analyze TLS and KEMTLS with instrumented BoringSSL.
+- [SDN-Based-Machine-Learning-IDS](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS) — Detect network attacks with machine learning.
 
 ## 🛠️ Skills
 
