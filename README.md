@@ -1,43 +1,95 @@
---
-<h1 align="left"><b>Hi , I'm Ali Hamza Malik   </b><img src = "https://github.com/alirafiqmalik/alirafiqmalik/blob/main/profile.gif" width = 50px></h1>
+# Hi, I'm Ali Hamza Malik <img src="https://raw.githubusercontent.com/alirafiqmalik/alirafiqmalik/main/profile.gif" width="50px" align="top" />
 
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alihamzamalik/)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amalik.bee19seecs@seecs.edu.pk)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=Vw4_jN4AAAAJ&hl=en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-alihamzamalik-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alihamzamalik/)
+[![Email](https://img.shields.io/badge/Email-ahmalik@umass.edu-8C1D40?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmalik@umass.edu)
 
-<!-- <p align="center">
+## 🧑‍🔬 About me
+
+- 🎓 PhD student & Graduate Research Assistant at **UMass Amherst**.
+- 🔭 Working on **formal verification of quantum key distribution protocols**.
+- ⚡ Background in embedded systems, hardware design, ML, and full-stack development.
+
+## 🔬 Research threads
+
+#### ⚛️ Quantum
+Security of quantum key distribution — modelling QKD protocols and proving their guarantees hold → [simQKD](https://github.com/alirafiqmalik/simQKD) · [IEEE QCE demo artifact](https://github.com/alirafiqmalik/qkd-fv-ieee-qce-demo)
+
+#### 📐 Formal methods
+Machine-checked, symbolic security proofs of cryptographic protocols with Tamarin, nuXmv, TLA+, and Lean 4 → [ach-model-checking](https://github.com/alirafiqmalik/ach-model-checking)
+
+#### 🛡️ Systems & security
+Analysis of deployed protocols — TLS/KEMTLS, Bluetooth, eSIM — and ML-driven network defense → [lazyssl_constant](https://github.com/alirafiqmalik/lazyssl_constant) (instrumented BoringSSL) · [SDN ML-IDS](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS)
+
+## 🛠️ Skills
+
+[![Skills](https://skillicons.dev/icons?i=python,c,cpp,matlab,pytorch,tensorflow,react,linux,raspberrypi,bash,arduino)](https://github.com/alirafiqmalik)
+
+[![Verilog](https://img.shields.io/badge/Verilog%2FFPGA-9C27B0?style=flat-square&logoColor=white)](#)
+[![Tamarin](https://img.shields.io/badge/Tamarin_Prover-2E7D32?style=flat-square)](https://tamarin-prover.com/)
+[![nuXmv](https://img.shields.io/badge/nuXmv-1565C0?style=flat-square)](https://nuxmv.fbk.eu/)
+[![TLA+](https://img.shields.io/badge/TLA%2B-6D4C41?style=flat-square)](https://lamport.azurewebsites.net/tla/tla.html)
+[![Lean 4](https://img.shields.io/badge/Lean_4-546E7A?style=flat-square)](https://lean-lang.org/)
+[![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat-square)](https://www.ibm.com/quantum/qiskit)
+[![PennyLane](https://img.shields.io/badge/PennyLane-00B4D8?style=flat-square)](https://pennylane.ai/)
+
+## 🚀 Featured
+
+- 🔐 **[qkd-fv-ieee-qce-demo](https://github.com/alirafiqmalik/qkd-fv-ieee-qce-demo)** — machine-checked proofs of QKD protocols (Tamarin); IEEE QCE artifact
+- 🤖 **[cf_ai_mini_pdf_tutor](https://github.com/alirafiqmalik/cf_ai_mini_pdf_tutor)** — LLM-powered PDF tutor on Cloudflare Workers AI
+- ⚙️ **[rv32i-processor-fpga](https://github.com/alirafiqmalik/rv32i-processor-fpga)** — RISC-V RV32I processor implemented on FPGA
+- 🧠 **[SDN-Based-Machine-Learning-IDS](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS)** — ML intrusion detection for software-defined networks
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+## 📈 GitHub stats
+
+<p>
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&theme=dark&bg_color=0d1117" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alirafiqmalik&include_all_commits=true&count_private=true&layout=compact&langs_count=8&hide_border=true&theme=dark&bg_color=0d1117&exclude_repo=alirafiqmalik.github.io" />
 </p>
-<br> -->
 
-## <picture><img src ="https://github.com/alirafiqmalik/alirafiqmalik/blob/main/aboutme.gif" width = 50px></picture> **About me**
-- 🎓 I have started my Graduate Research Assistant at University of Massachusetts Amherst, USA.
+## 🗂️ Project domains
 
-- ⚡ I have experience in Embedded Systems, Hardware and Software Development with knowledge of Machine Learning.     
+<!-- domain_bars starts -->
+```text
+Formal Verification & Security  ███████████████████████  23 projects
+AI & Machine Learning           ███████████████████      19 projects
+Software & Full-Stack           ██████████████████       18 projects
+Embedded & Hardware             ██████████████           14 projects
+```
+<!-- domain_bars ends -->
+<sub>74 tagged projects across 87 repositories — public and private.</sub>
 
-- 🔭 I am currently working on Formal Verification of Quantum Key Distribution Protocols.
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Languages and Tools</b>
-<p align="left"> 
-<a href="https://www.intel.com/content/www/us/en/products/details/fpga/development-tools/quartus-prime.html" target="_blank"> <img src="https://user-images.githubusercontent.com/65295655/192134352-56426a78-23d1-4fb3-a7dc-64c11695fff8.png" alt="verilog" width="40" height="40"/> </a>
-<a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://tensorflow.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tf" width="40" height="40"/> </a>
-<a href="https://pytorch.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>
-<a href="" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Linux-Light.svg" alt="linux" width="40" height="40"/> </a>
-<a href="" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/RaspberryPi-Light.svg" alt="rpi" width="40" height="40"/> </a>
-<a href="" target="_blank"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Bash-Light.svg" alt="bash" width="40" height="40"/> </a>
-</p>
-  
------
-  
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
+<details>
+<summary><b>🔬 Research & security work</b></summary>
 
-<p align="center">
-  <!-- GitHub Stats -->
-  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true" />
+- Machine-checked proofs of **QKD protocols** (Tamarin) — [simQKD](https://github.com/alirafiqmalik/simQKD), [IEEE QCE artifact](https://github.com/alirafiqmalik/qkd-fv-ieee-qce-demo)
+- Symbolic analysis of **post-quantum TLS / KEMTLS** and deployed protocols — [lazyssl_constant](https://github.com/alirafiqmalik/lazyssl_constant), [ach-model-checking](https://github.com/alirafiqmalik/ach-model-checking)
+- **Bluetooth & eSIM** protocol testbeds for real-world verification targets
 
+</details>
 
+<details>
+<summary><b>🤖 AI & ML projects</b></summary>
 
-  <!-- Most Used Languages -->
-  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alirafiqmalik&include_all_commits=true&count_private=true&show_icons=true&hide_border=true&layout=compact&exclude_repo=alirafiqmalik.github.io&cache_seconds=1800&v=2" />
-</p>
+- [cf_ai_mini_pdf_tutor](https://github.com/alirafiqmalik/cf_ai_mini_pdf_tutor) — LLM PDF tutor on Cloudflare Workers AI
+- [LogicTune](https://github.com/alirafiqmalik/LogicTune) — ML for logic optimisation
+- [SDN-Based-Machine-Learning-IDS](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS) — ML intrusion detection
+- [RepeaterchainOptimisation](https://github.com/alirafiqmalik/RepeaterchainOptimisation) — quantum-network optimisation
+- [Event-Driven-Swarm-Configuration](https://github.com/alirafiqmalik/Event-Driven-Swarm-Configuration) — swarm configuration via ML
 
+</details>
+
+<details>
+<summary><b>⚙️ Hardware & embedded</b></summary>
+
+- [rv32i-processor-fpga](https://github.com/alirafiqmalik/rv32i-processor-fpga) — RISC-V RV32I core on FPGA
+- [Nucore-microprocessor](https://github.com/alirafiqmalik/Nucore-microprocessor) — custom microprocessor design
+- [ENIGMA-Logic-Locking-Framework](https://github.com/alirafiqmalik/ENIGMA-Logic-Locking-Framework) — logic locking for hardware IP protection
+- [Bresenham-Circle-Algorithm-Hardware-Accelerator](https://github.com/alirafiqmalik/Bresenham-Circle-Algorithm-Hardware-Accelerator) — hardware accelerator
+- [Real-time-Fire-Alarm-Detector-using-ESP32](https://github.com/alirafiqmalik/Real-time-Fire-Alarm-Detector-using-ESP32) — ESP32 embedded system
+
+</details>
