@@ -16,6 +16,7 @@ jobs:
         with:
           filename: profile/metrics.languages.recent.svg
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          use_prebuilt_image: no
           base: ""
           config_timezone: America/New_York
           plugin_languages: yes
