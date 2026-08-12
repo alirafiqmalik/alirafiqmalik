@@ -10,7 +10,7 @@
 - 🔭 Working on **formal verification of quantum key distribution protocols**.
 - ⚡ Background in embedded systems, hardware design, ML, and full-stack development.
 
-## 🔬 Research threads
+## 🔬 Featured
 
 ### ⚛️ Quantum
 
@@ -23,7 +23,6 @@
   
 ### 🛡️ Systems & security
 - [SDN-Based-Machine-Learning-IDS](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS) — Detect network attacks with machine learning.
-
 - **Bluetooth & eSIM** protocol testbeds for real-world verification targets
 
 ## 🛠️ Skills
