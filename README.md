@@ -15,15 +15,16 @@
 ### ⚛️ Quantum
 
 - [simQKD](https://github.com/alirafiqmalik/simQKD) — Simulate quantum key distribution protocols.
-- [qkd-fv-ieee-qce-demo](https://github.com/alirafiqmalik/qkd-fv-ieee-qce-demo) — Machine-checked QKD proofs for the IEEE QCE artifact.
 
 ### 📐 Formal methods
 
 - [ach-model-checking](https://github.com/alirafiqmalik/ach-model-checking) — Model checking ACH Banking Payment Specifications.
-
+- Symbolic analysis of **post-quantum TLS / KEMTLS** and deployed protocols
+  
 ### 🛡️ Systems & security
-
 - [SDN-Based-Machine-Learning-IDS](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS) — Detect network attacks with machine learning.
+
+- **Bluetooth & eSIM** protocol testbeds for real-world verification targets
 
 ## 🛠️ Skills
 
