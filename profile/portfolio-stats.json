@@ -1,0 +1,65 @@
+{
+  "collected_at": "2026-10-27T03:09:15+00:00",
+  "repositories": [
+    {
+      "repository": "alirafiqmalik/certified-confinement-acm-pqqs-26-artifacts",
+      "source": "https://api.github.com/repos/alirafiqmalik/certified-confinement-acm-pqqs-26-artifacts/languages",
+      "languages": {
+        "Lean": 259497,
+        "Python": 131007,
+        "Shell": 23364
+      }
+    },
+    {
+      "repository": "alirafiqmalik/ach-model-checking",
+      "source": "https://api.github.com/repos/alirafiqmalik/ach-model-checking/languages",
+      "languages": {
+        "Python": 15182,
+        "Shell": 12180,
+        "Makefile": 1276,
+        "Dockerfile": 688
+      }
+    },
+    {
+      "repository": "alirafiqmalik/unity-hpc-controller",
+      "source": "https://api.github.com/repos/alirafiqmalik/unity-hpc-controller/languages",
+      "languages": {
+        "Python": 655640,
+        "Shell": 24796
+      }
+    },
+    {
+      "repository": "alirafiqmalik/agent-eval-hpc",
+      "source": "https://api.github.com/repos/alirafiqmalik/agent-eval-hpc/languages",
+      "languages": {
+        "Python": 2733325,
+        "Shell": 2269923,
+        "Rust": 1424251,
+        "Dockerfile": 18752,
+        "Makefile": 2726
+      }
+    },
+    {
+      "repository": "alirafiqmalik/local-model-router",
+      "source": "https://api.github.com/repos/alirafiqmalik/local-model-router/languages",
+      "languages": {
+        "Python": 53958,
+        "HTML": 28424,
+        "Shell": 26232,
+        "Makefile": 2708
+      }
+    },
+    {
+      "repository": "alirafiqmalik/esim-research-tools",
+      "source": "https://api.github.com/repos/alirafiqmalik/esim-research-tools/languages",
+      "languages": {
+        "Python": 1129208,
+        "Shell": 39798,
+        "Kotlin": 25677,
+        "Mermaid": 16621,
+        "C": 14335,
+        "JavaScript": 6320
+      }
+    }
+  ]
+}

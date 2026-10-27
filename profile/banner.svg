@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="title desc">
+  <title id="title">Formal methods · Security · Research systems</title>
+  <desc id="desc">From models to reproducible evidence. A schematic connects a protocol model, verification, and an experimental result.</desc>
+  <rect width="960" height="180" rx="16" fill="#0f172a"/>
+  <rect x="0" y="24" width="5" height="132" rx="2" fill="#2dd4bf"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="34" y="48" fill="#5eead4" font-size="13" letter-spacing="2">FORMAL METHODS / SECURITY / SYSTEMS</text>
+    <text x="34" y="93" fill="#f8fafc" font-size="30" font-weight="700">From models to</text>
+    <text x="34" y="132" fill="#f8fafc" font-size="30" font-weight="700">reproducible evidence.</text>
+    <g stroke="#475569" stroke-width="2" fill="none">
+      <path d="M615 85H680 M770 85H835"/>
+      <rect x="525" y="47" width="90" height="76" rx="12"/>
+      <rect x="680" y="47" width="90" height="76" rx="12"/>
+      <rect x="835" y="47" width="90" height="76" rx="12"/>
+      <path d="M548 96L570 69L592 96Z" stroke="#60a5fa"/>
+      <path d="M708 85L721 98L745 72" stroke="#2dd4bf" stroke-width="4"/>
+      <path d="M858 101V89M880 101V68M902 101V78" stroke="#c4b5fd" stroke-width="7"/>
+    </g>
+    <g fill="#cbd5e1" font-size="13" text-anchor="middle">
+      <text x="570" y="149">MODEL</text><text x="725" y="149">VERIFY</text><text x="880" y="149">EVALUATE</text>
+    </g>
+  </g>
+</svg>
