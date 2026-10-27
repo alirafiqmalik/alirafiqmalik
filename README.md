@@ -16,8 +16,11 @@ I investigate how banking, quantum, and communication systems can fail - and bui
 
 - 🔬 **[Certified Confinement](https://github.com/alirafiqmalik/certified-confinement-acm-pqqs-26-artifacts)** - Lean 4 proofs and reproducible checks for tenant confinement in quantum-cloud circuits. [Paper](https://doi.org/10.1145/3839338.3857240).
 - 🏦 **[Credit Without Debit](https://github.com/alirafiqmalik/ach-model-checking)** - the ACM CCS 2026 banking-protocol artifact: executable ACH models, invariant checks, and counterexamples.
-- 🖥️ **[Unity HPC Controller](https://github.com/alirafiqmalik/unity-hpc-controller)** - submit reproducible Slurm campaigns, recover interrupted attempts, and retrieve results incrementally.
-- 🧩 **[FSM Visual Tool](https://github.com/alirafiqmalik/fsm-tool)** - draw communicating state machines in the browser, edit DOT, and export SVG or draw.io diagrams.
+- 🖥️ **[unity-hpc-controller](https://github.com/alirafiqmalik/unity-hpc-controller)** - submit reproducible Slurm campaigns, recover interrupted attempts, and retrieve results incrementally.
+- 🔀 **[local-model-router](https://github.com/alirafiqmalik/local-model-router)** - one local chat API for Ollama and Hugging Face, with heuristic routing, streaming, and a resource dashboard.
+- 🧪 **[agent-eval-hpc](https://github.com/alirafiqmalik/agent-eval-hpc)** - configurable agent trials using Harbor, Apptainer, and local model serving, with inspectable trajectories and scoring artifacts.
+- 📲 **[esim-research-tools](https://github.com/alirafiqmalik/esim-research-tools)** - inspect Android eSIMs, capture provisioning flows, generate protocol diagrams, and explore a local ecosystem simulator.
+- 🔍 **[logic-locking-lab](https://github.com/alirafiqmalik/logic-locking-lab)** - gate-level circuit transformations, BENCH/Verilog conversion, and oracle-guided SAT attacks from my final-year research.
 
 ## Research & security
 
