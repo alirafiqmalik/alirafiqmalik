@@ -1,34 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="304" viewBox="0 0 640 304" role="img" aria-labelledby="title desc">
-<title id="title">Public portfolio · code composition</title>
-<desc id="desc">Language bytes from 6 selected public repositories, collected 2026-10-27 UTC.
-Python: 52.9%; Shell: 26.9%; Rust: 16.0%; Lean: 2.9%; HTML: 0.3%; Other: 1.0%
-</desc>
-<rect width="640" height="304" rx="14" fill="#0f172a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="490" viewBox="0 0 840 490" role="img" aria-labelledby="title desc">
+<title id="title">Ali Hamza Malik · GitHub overview</title>
+<desc id="desc">66 public repositories, 53 non-fork repositories, 2 stars on non-forks, 18 followers. Language bytes from 6 selected public repositories. Python: 52.9%; Shell: 26.9%; Rust: 16.0%; Lean: 2.9%; HTML: 0.3%; Other: 1.0% Collected 2026-10-27 UTC.</desc>
+<defs><linearGradient id="accent"><stop stop-color="#3182ce"/><stop offset="1" stop-color="#14b8a6"/></linearGradient></defs>
+<rect x="1" y="1" width="838" height="488" rx="20" fill="#0d1424" stroke="#293850"/>
+<rect x="28" y="26" width="36" height="4" rx="2" fill="url(#accent)"/>
 <g font-family="DejaVu Sans, Arial, sans-serif">
-<text x="24" y="33" fill="#f8fafc" font-size="20" font-weight="700">Public portfolio · code composition</text>
-<text x="24" y="59" fill="#cbd5e1" font-size="13">6 featured repositories · 2026-10-27 UTC · language bytes</text>
-<text x="24" y="94" fill="#e2e8f0" font-size="14">Python</text>
-<rect x="180" y="82" width="350" height="10" rx="5" fill="#243247"/>
-<rect x="180" y="82" width="185.22" height="10" rx="5" fill="#60a5fa"/>
-<text x="612" y="94" text-anchor="end" fill="#e2e8f0" font-size="14">52.9%</text>
-<text x="24" y="128" fill="#e2e8f0" font-size="14">Shell</text>
-<rect x="180" y="116" width="350" height="10" rx="5" fill="#243247"/>
-<rect x="180" y="116" width="94.07" height="10" rx="5" fill="#2dd4bf"/>
-<text x="612" y="128" text-anchor="end" fill="#e2e8f0" font-size="14">26.9%</text>
-<text x="24" y="162" fill="#e2e8f0" font-size="14">Rust</text>
-<rect x="180" y="150" width="350" height="10" rx="5" fill="#243247"/>
-<rect x="180" y="150" width="55.91" height="10" rx="5" fill="#c4b5fd"/>
-<text x="612" y="162" text-anchor="end" fill="#e2e8f0" font-size="14">16.0%</text>
-<text x="24" y="196" fill="#e2e8f0" font-size="14">Lean</text>
-<rect x="180" y="184" width="350" height="10" rx="5" fill="#243247"/>
-<rect x="180" y="184" width="10.19" height="10" rx="5" fill="#fbbf24"/>
-<text x="612" y="196" text-anchor="end" fill="#e2e8f0" font-size="14">2.9%</text>
-<text x="24" y="230" fill="#e2e8f0" font-size="14">HTML</text>
-<rect x="180" y="218" width="350" height="10" rx="5" fill="#243247"/>
-<rect x="180" y="218" width="1.12" height="10" rx="5" fill="#fb923c"/>
-<text x="612" y="230" text-anchor="end" fill="#e2e8f0" font-size="14">0.3%</text>
-<text x="24" y="264" fill="#e2e8f0" font-size="14">Other</text>
-<rect x="180" y="252" width="350" height="10" rx="5" fill="#243247"/>
-<rect x="180" y="252" width="3.50" height="10" rx="5" fill="#94a3b8"/>
-<text x="612" y="264" text-anchor="end" fill="#e2e8f0" font-size="14">1.0%</text>
+<text x="28" y="63" font-size="25" fill="#edf4ff" font-weight="700" >GitHub overview</text>
+<text x="28" y="88" font-size="13" fill="#a9bad3" font-weight="400" >@alirafiqmalik · Public work</text>
+<text x="812" y="49" font-size="10" fill="#73c8ff" font-weight="700" text-anchor="end" letter-spacing="1.5">SNAPSHOT</text>
+<text x="812" y="70" font-size="12" fill="#a9bad3" font-weight="400" text-anchor="end">2026-10-27 UTC</text>
+<rect x="28" y="112" width="187" height="116" rx="12" fill="#141f33" stroke="#293850"/>
+<path d="M4 3h12v16H4z M7 3v16 M10 7h3 M10 10h3" transform="translate(42 126)" fill="none" stroke="#73c8ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="70" y="141" font-size="13" fill="#a9bad3" font-weight="600" >Public repos</text>
+<text x="44" y="182" font-size="30" fill="#edf4ff" font-weight="700" >66</text>
+<text x="44" y="208" font-size="11" fill="#a9bad3" font-weight="400" >13 forks included</text>
+<rect x="227" y="112" width="187" height="116" rx="12" fill="#141f33" stroke="#293850"/>
+<path d="M7 4v9a4 4 0 0 0 4 4h4 M3 8l4-4 4 4 M12 14l3 3-3 3" transform="translate(241 126)" fill="none" stroke="#73c8ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="269" y="141" font-size="13" fill="#a9bad3" font-weight="600" >Non-forks</text>
+<text x="243" y="182" font-size="30" fill="#edf4ff" font-weight="700" >53</text>
+<text x="243" y="208" font-size="11" fill="#a9bad3" font-weight="400" >Public repositories</text>
+<rect x="426" y="112" width="187" height="116" rx="12" fill="#141f33" stroke="#293850"/>
+<path d="m10 2 2.5 5 5.5.8-4 4 .9 5.7-4.9-2.7-4.9 2.7.9-5.7-4-4L7.5 7z" transform="translate(440 126)" fill="none" stroke="#73c8ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="468" y="141" font-size="13" fill="#a9bad3" font-weight="600" >Stars</text>
+<text x="442" y="182" font-size="30" fill="#edf4ff" font-weight="700" >2</text>
+<text x="442" y="208" font-size="11" fill="#a9bad3" font-weight="400" >On public non-forks</text>
+<rect x="625" y="112" width="187" height="116" rx="12" fill="#141f33" stroke="#293850"/>
+<path d="M13 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0 M3 18v-2a7 7 0 0 1 14 0v2" transform="translate(639 126)" fill="none" stroke="#73c8ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="667" y="141" font-size="13" fill="#a9bad3" font-weight="600" >Followers</text>
+<text x="641" y="182" font-size="30" fill="#edf4ff" font-weight="700" >18</text>
+<text x="641" y="208" font-size="11" fill="#a9bad3" font-weight="400" >GitHub community</text>
+<text x="28" y="270" font-size="17" fill="#edf4ff" font-weight="700" >Languages in selected projects</text>
+<text x="28" y="292" font-size="12" fill="#a9bad3" font-weight="400" >6 repositories · Share of code bytes</text>
+<clipPath id="bar"><rect x="28" y="308" width="784" height="10" rx="5"/></clipPath>
+<rect x="28" y="308" width="784" height="10" rx="5" fill="#141f33"/>
+<rect x="28.000" y="308" width="414.896" height="10" fill="#3182ce" clip-path="url(#bar)"/>
+<rect x="442.896" y="308" width="210.713" height="10" fill="#0d9488" clip-path="url(#bar)"/>
+<rect x="653.609" y="308" width="125.239" height="10" fill="#8b5cf6" clip-path="url(#bar)"/>
+<rect x="778.847" y="308" width="22.818" height="10" fill="#d49b18" clip-path="url(#bar)"/>
+<rect x="801.666" y="308" width="2.499" height="10" fill="#e77734" clip-path="url(#bar)"/>
+<rect x="804.165" y="308" width="7.835" height="10" fill="#64748b" clip-path="url(#bar)"/>
+<circle cx="33" cy="344" r="4" fill="#3182ce"/>
+<text x="47" y="349" font-size="13" fill="#edf4ff" font-weight="400" >Python</text>
+<text x="408" y="349" font-size="13" fill="#a9bad3" font-weight="600" text-anchor="end">52.9%</text>
+<circle cx="437" cy="344" r="4" fill="#0d9488"/>
+<text x="451" y="349" font-size="13" fill="#edf4ff" font-weight="400" >Shell</text>
+<text x="812" y="349" font-size="13" fill="#a9bad3" font-weight="600" text-anchor="end">26.9%</text>
+<circle cx="33" cy="378" r="4" fill="#8b5cf6"/>
+<text x="47" y="383" font-size="13" fill="#edf4ff" font-weight="400" >Rust</text>
+<text x="408" y="383" font-size="13" fill="#a9bad3" font-weight="600" text-anchor="end">16.0%</text>
+<circle cx="437" cy="378" r="4" fill="#d49b18"/>
+<text x="451" y="383" font-size="13" fill="#edf4ff" font-weight="400" >Lean</text>
+<text x="812" y="383" font-size="13" fill="#a9bad3" font-weight="600" text-anchor="end">2.9%</text>
+<circle cx="33" cy="412" r="4" fill="#e77734"/>
+<text x="47" y="417" font-size="13" fill="#edf4ff" font-weight="400" >HTML</text>
+<text x="408" y="417" font-size="13" fill="#a9bad3" font-weight="600" text-anchor="end">0.3%</text>
+<circle cx="437" cy="412" r="4" fill="#64748b"/>
+<text x="451" y="417" font-size="13" fill="#edf4ff" font-weight="400" >Other</text>
+<text x="812" y="417" font-size="13" fill="#a9bad3" font-weight="600" text-anchor="end">1.0%</text>
+<path d="M28 445H812" stroke="#293850"/>
+<text x="28" y="468" font-size="11" fill="#a9bad3" font-weight="400" >Public GitHub data · Updated weekly</text>
+<text x="812" y="468" font-size="11" fill="#a9bad3" font-weight="400" text-anchor="end">6-project language sample</text>
 </g></svg>

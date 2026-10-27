@@ -1,5 +1,17 @@
 {
-  "collected_at": "2026-10-27T03:09:15+00:00",
+  "collected_at": "2026-10-27T10:00:56+00:00",
+  "account": {
+    "login": "alirafiqmalik",
+    "public_repositories": 66,
+    "non_fork_repositories": 53,
+    "forks": 13,
+    "stars_on_non_forks": 2,
+    "followers": 18,
+    "sources": [
+      "https://api.github.com/users/alirafiqmalik",
+      "https://api.github.com/users/alirafiqmalik/repos?type=owner&per_page=100"
+    ]
+  },
   "repositories": [
     {
       "repository": "alirafiqmalik/certified-confinement-acm-pqqs-26-artifacts",
