@@ -4,6 +4,8 @@
 [![Website](https://img.shields.io/badge/Website-alihamzamalik.me-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://alihamzamalik.me/)
 
 
+<img src="profile/banner.svg" width="100%" alt="Formal methods, security, and research systems - from models to reproducible evidence" />
+
 # Hi, I'm Ali 👋
 
 **Ali Hamza Malik · PhD Candidate at UMass Amherst · Formal methods, security & research systems**
