@@ -1,62 +1,153 @@
-<img src="profile/banner.svg" width="100%" alt="Formal methods, security, and research systems — from models to reproducible evidence" />
-
-# Ali Hamza Malik
-
-**PhD researcher at UMass Amherst · Formal verification · Quantum security · Research infrastructure**
-
-I study the security of quantum systems and communication protocols in the [Khwarizmi Lab](https://khwarizmilab.github.io/), advised by Muhammad Taqi Raza. I build formal models, executable research artifacts, and the infrastructure to run and inspect experiments—from Lean proofs and protocol analysis to GPU campaigns and local inference.
-
 [Website](https://alihamzamalik.me/) · [Google Scholar](https://scholar.google.com/citations?user=Vw4_jN4AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/alihamzamalik/) · [Email](mailto:ahmalik@umass.edu)
 
-## Selected research
+# Hi, I'm Ali 👋
 
-### Certified Confinement · Quantum-cloud security
+**Ali Hamza Malik · PhD Candidate at UMass Amherst · Formal methods, security & research systems**
 
-**Can a hardware-legal circuit still cross a tenant boundary?** This artifact checks untrusted transpiler output against device connectivity and a forbidden qubit region. Its Lean 4 soundness theorem connects acceptance to hardware legality and support confinement for the represented circuit.
+I investigate how banking, quantum, and communication systems can fail—and build tools to check their behavior. At the [Khwarizmi Lab](https://khwarizmilab.github.io/), I work with Muhammad Taqi Raza on security verification. My projects span theorem proving, protocol analysis, agent evaluation, local inference, and the hardware I started with.
 
-The repository includes a staged reproduction runner, benchmark data, and IBM hardware evidence. The recorded evaluation covers **11 device topologies and 44 independently recomputed verdicts**; the structural guarantee does not bound physical crosstalk.
+[Research](#research--security) · [AI & HPC](#ai--research-computing) · [Tools](#developer--research-tools) · [Hardware](#hardware--embedded-systems) · [More projects](#more-projects)
 
-[Source & quick start](https://github.com/alirafiqmalik/certified-confinement-acm-pqqs-26-artifacts) · [Paper — ACM PQQS ’26](https://doi.org/10.1145/3839338.3857240) · [Paper-to-code guide](https://github.com/alirafiqmalik/certified-confinement-acm-pqqs-26-artifacts/blob/main/docs/PAPER.md)
+## Start here
 
-### Credit Without Debit · Banking protocol verification
+- 🔬 **[Certified Confinement](https://github.com/alirafiqmalik/certified-confinement-acm-pqqs-26-artifacts)** — Lean 4 proofs and reproducible checks for tenant confinement in quantum-cloud circuits. [Paper](https://doi.org/10.1145/3839338.3857240).
+- 🏦 **[Credit Without Debit](https://github.com/alirafiqmalik/ach-model-checking)** — the ACM CCS 2026 banking-protocol artifact: executable ACH models, invariant checks, and counterexamples.
+- 🖥️ **[Unity HPC Controller](https://github.com/alirafiqmalik/unity-hpc-controller)** — submit reproducible Slurm campaigns, recover interrupted attempts, and retrieve results incrementally.
+- 🧩 **[FSM Visual Tool](https://github.com/alirafiqmalik/fsm-tool)** — draw communicating state machines in the browser, edit DOT, and export SVG or draw.io diagrams.
 
-Formal models and reproduction scripts for *Credit Without Debit: Formal Verification of Banking Payment Systems* (ACM CCS 2026). The artifact uses **nuXmv, IC3, and bounded model checking** to examine ACH payment flows, with reference results and counterexamples for three payment invariants.
+## Research & security
 
-[Source & reproduction guide](https://github.com/alirafiqmalik/ach-model-checking) · [Reference results](https://github.com/alirafiqmalik/ach-model-checking/tree/main/saved-reference-results)
+### Formal verification & quantum systems
 
-## Selected engineering
+- **[Certified Confinement](https://github.com/alirafiqmalik/certified-confinement-acm-pqqs-26-artifacts)** — check transpiler output against device connectivity and forbidden qubit regions, with a Lean-checked soundness theorem. Structural confinement; physical crosstalk is outside the guarantee.
+- **[ACH Model Checking](https://github.com/alirafiqmalik/ach-model-checking)** — nuXmv, IC3, and bounded model checking for payment invariants, with reproduction scripts and saved reference results.
+- **[Tamarin Quantum Protocol Bench](https://github.com/alirafiqmalik/tamarin-quantum-protocol-bench)** — assemble symbolic quantum-protocol models, inspect generated theories, and check lemmas; a PQQS 2026 demo.
+- **[Beyond the Quantum Promise](https://github.com/alirafiqmalik/qkd-fv-ieee-qce-demo)** — interactive web companion to my IEEE QCE 2026 talk, explaining QKD's classical control plane through an attack walkthrough.
+- **[FV_GPU](https://github.com/alirafiqmalik/FV_GPU)** — experimental formal-verification workspace containing a Python SMT translation prototype and upstream prover sources.
 
-| Project | What you can inspect | Stack |
-| :--- | :--- | :--- |
-| **[Unity HPC Controller](https://github.com/alirafiqmalik/unity-hpc-controller)** | Headless experiment orchestration: immutable source bundles, hardware-aware placement, durable attempts, and incremental result retrieval. [Architecture](https://github.com/alirafiqmalik/unity-hpc-controller/blob/main/ARCHITECTURE.md) | Python · Slurm · SQLite · HTTP / MCP |
-| **[Agent Eval HPC](https://github.com/alirafiqmalik/agent-eval-hpc)** | Configurable agent evaluations with isolated trials, local inference, and inspectable trajectories. Includes **164 HumanEval tasks and 581 Verus SpecGym tasks**. [Experiments](https://github.com/alirafiqmalik/agent-eval-hpc/tree/main/experiments) | Python · Harbor · Apptainer · vLLM |
-| **[Local Model Router](https://github.com/alirafiqmalik/local-model-router)** | A local chat API routing requests to Ollama or a Hugging Face engine, with heuristic model selection, streaming, and a resource dashboard. [Dashboard & quick start](https://github.com/alirafiqmalik/local-model-router#readme) | Python · FastAPI · Ollama · Hugging Face |
-| **[eSIM Research Tools](https://github.com/alirafiqmalik/esim-research-tools)** | Device inspection, provisioning capture, protocol diagrams, fuzzing harnesses, and a local eSIM ecosystem simulator. [Research capabilities](https://github.com/alirafiqmalik/esim-research-tools#research-capabilities) | Python · Android / ADB · Graphviz |
+### Communication & network security
 
-### From experiment to evidence
+- **[eSIM Research Tools](https://github.com/alirafiqmalik/esim-research-tools)** — inspect Android eSIMs, capture provisioning flows, generate protocol diagrams, and explore a local ecosystem simulator.
+- **[Bluetooth Testbed](https://github.com/alirafiqmalik/bluetooth-tesbed)** — investigate multipoint audio switching with capture tools, SAPIC+ models, and device experiments.
+- **[NAS/RRC Control-Plane Monitor](https://github.com/alirafiqmalik/nasrrc-control-plane-monitor-analysis)** — capture and decode cellular signaling on a supported rooted Pixel; inspect measurement reports and handovers.
+- **[SDN Intrusion Detection](https://github.com/alirafiqmalik/SDN-Based-Machine-Learning-IDS)** — machine-learning experiments for network intrusion detection using Mininet, Ryu, and CloudLab.
 
-The public HPC projects cover complementary layers: **Agent Eval HPC** defines and evaluates trials; **Unity HPC Controller** manages campaign execution and result retrieval.
+### Hardware security
 
-```mermaid
-flowchart LR
-    A["Agent Eval HPC<br/>Tasks and scoring"] --> B["Unity HPC Controller<br/>Source bundles and durable state"]
-    B --> C["Unity Slurm<br/>Allocated compute"]
-    C --> D["Retrieved artifacts<br/>Trajectories and scores"]
-    D --> E["Inspect and evaluate"]
-```
+- **[ENIGMA](https://github.com/alirafiqmalik/ENIGMA-Logic-Locking-Framework)** — logic-locking framework for Verilog circuits, with netlist parsing, locking transformations, and verification tools.
+- **[Logic Locking Lab](https://github.com/alirafiqmalik/logic-locking-lab)** — gate-level circuit transformations, BENCH/Verilog conversion, and oracle-guided SAT attacks from my final-year research.
 
-## More to explore
+## AI & research computing
 
-- **[Tamarin Quantum Protocol Bench](https://github.com/alirafiqmalik/tamarin-quantum-protocol-bench)** — PQQS 2026 demonstration for assembling symbolic quantum-protocol models, checking lemmas, and comparing modeling choices.
-- **[Beyond the Quantum Promise](https://github.com/alirafiqmalik/qkd-fv-ieee-qce-demo)** — interactive web companion to an IEEE QCE 2026 talk on classical control in QKD; includes a step-by-step attack walkthrough.
-- **[RV32I Processor on FPGA](https://github.com/alirafiqmalik/rv32i-processor-fpga)** — undergraduate Verilog processor project targeting Intel Cyclone V, with datapath documentation and synthesis results.
+- 🖥️ **[Unity HPC Controller](https://github.com/alirafiqmalik/unity-hpc-controller)** — Python/Slurm orchestration with frozen source bundles, GPU-aware placement, a durable SQLite journal, and CLI/MCP interfaces.
+- 🧪 **[Agent Eval HPC](https://github.com/alirafiqmalik/agent-eval-hpc)** — configurable agent trials using Harbor, Apptainer, and local model serving, with inspectable trajectories and scoring artifacts.
+- 🔀 **[Local Model Router](https://github.com/alirafiqmalik/local-model-router)** — one local chat API for Ollama and Hugging Face, with heuristic routing, streaming, and a resource dashboard.
+- 🧠 **[LogicTune](https://github.com/alirafiqmalik/LogicTune)** — experimental DPO fine-tuning of control policies using formal-verifier feedback; includes a measured run and analysis of its lack of improvement.
+- 📚 **[NeetCode GPT](https://github.com/alirafiqmalik/neetcode-gpt)** — a GPT implementation assembled from my ML coursework, from neural-network fundamentals to attention and text generation.
+
+## Developer & research tools
+
+- 🧩 **[FSM Visual Tool](https://github.com/alirafiqmalik/fsm-tool)** — Svelte/TypeScript editor for Mealy, Moore, and communicating machines, with Graphviz layouts and portable diagram exports.
+- 📄 **[PDF Tutor](https://github.com/alirafiqmalik/cf_ai_mini_pdf_tutor)** — study PDFs with page summaries, quizzes, and notes, built with Cloudflare Workers AI and R2.
+- 📝 **[ResumeBuilder](https://github.com/alirafiqmalik/ResumeBuilder)** — generate LaTeX resumes from YAML, choosing content, layouts, and themes for different roles.
+- 📅 **[Security Deadlines](https://github.com/alirafiqmalik/sec-deadlines)** — adapted conference-deadline site with topic filters and venue submissions, based on the community deadline projects.
+- 🌐 **[Personal Website](https://github.com/alirafiqmalik/alirafiqmalik.github.io)** — my Jekyll portfolio, with publications, project filtering, and dark mode. [Visit](https://alihamzamalik.me/).
+
+## Hardware & embedded systems
+
+My earlier engineering work includes individual and team projects in digital design, robotics, and signal processing.
+
+- **[RV32I Processor on FPGA](https://github.com/alirafiqmalik/rv32i-processor-fpga)** — undergraduate Verilog processor project for Intel Cyclone V, with datapath documentation and CoreMark integration.
+- **[Nucore Microprocessor](https://github.com/alirafiqmalik/Nucore-microprocessor)** — Verilog processor coursework with ALU, register-file, control, and instruction-memory modules.
+- **[Bresenham Circle Accelerator](https://github.com/alirafiqmalik/Bresenham-Circle-Algorithm-Hardware-Accelerator)** — FPGA circle rendering with Verilog modules, VGA output, and testbenches.
+- **[CNC Drawbot](https://github.com/alirafiqmalik/CNC-controller)** — Arduino-based drawing machine that translates G-code into stepper-motor motion.
+- **[Event-Driven Swarm Configuration](https://github.com/alirafiqmalik/Event-Driven-Swarm-Configuration)** — collaborative UAV swarm-coordination project from my robotics research.
+- **[Robotic Arm](https://github.com/alirafiqmalik/Robotic-Arm)** — microcontroller project with separate transmitter and receiver firmware and Proteus design files.
+- **[ESP32 Fire-Alarm Detector](https://github.com/alirafiqmalik/Real-time-Fire-Alarm-Detector-using-ESP32)** — FFT-based sound detection with an ESP32-hosted web display.
+
+## More projects
+
+This README links all **66 public repositories** on my account as of **October 27, 2026**. Expand the groups below for earlier projects, research references, forks, and supporting repositories. [Browse the latest inventory](https://github.com/alirafiqmalik?tab=repositories).
+
+<details>
+<summary><strong>Earlier software, signal processing & coursework</strong></summary>
+
+- **[Assembly Clock](https://github.com/alirafiqmalik/Assembly-Clock)** — graphical analog clock in x86 assembly, designed to run in DOSBox.
+- **[DTMF Encoder/Decoder](https://github.com/alirafiqmalik/DTMF-ENCODER-DECODER)** — MATLAB tone generation, filtering, and digit decoding.
+- **[FFT Display](https://github.com/alirafiqmalik/FFT-Display)** — signal-visualization coursework with MATLAB and Processing scripts.
+- **[Music Player](https://github.com/alirafiqmalik/MUSIC-PLAYER)** — MATLAB audio player with filtering and sound effects.
+- **[Water Flow Management System](https://github.com/alirafiqmalik/Water-Flow-Managment-System)** — digital-logic project with a Proteus design, report, and presentation.
+- **[TCP Audio Transfer](https://github.com/alirafiqmalik/TCP-audio-file-Transfer-in-C)** — C client/server code for transferring audio files over TCP.
+- **[CodeFest '21 Chatbot](https://github.com/alirafiqmalik/CodeFest-21-ChatBot)** — intent-based chatbot project with Python model code and a PHP web interface.
+- **[Tic-Tac-Toe AI](https://github.com/alirafiqmalik/TicTacToe-AI-opponent)** — browser game with a JavaScript opponent.
+- **[Plagiarism Checker](https://github.com/alirafiqmalik/Plagarism-Checker)** — small C++ text-comparison exercise.
+- **[Data Structures & Algorithms](https://github.com/alirafiqmalik/Data-Structures-and-alogrithms)** — C++ exercises in stacks, expression evaluation, search trees, and sorting.
+- **[TUKL Internship](https://github.com/alirafiqmalik/TUKL-Internship)** — text-classification experiments with embeddings, sequence classifiers, SVM, and Naive Bayes.
+- **[Data Scraping](https://github.com/alirafiqmalik/Data-Scraping)** — Python document-download scripts, including a multiprocessing PDF downloader.
+- **[Web Scraping](https://github.com/alirafiqmalik/Web-Scraping)** — Python/JavaScript scripts and notebooks for collecting web text, images, and links.
+
+</details>
+
+<details>
+<summary><strong>Research references, reproductions & archived notes</strong></summary>
+
+These repositories collect reference implementations, upstream code, and exploratory work. See each repository for its original credits and scope.
+
+- **[KEMTLS / TLS 1.3 Tamarin](https://github.com/alirafiqmalik/KEMTLS-TLS13Tamarin-kem-auth)** — reference copy of KEMTLS protocol models derived from TLS13Tamarin.
+- **[neos](https://github.com/alirafiqmalik/neos)** — copy of Kaveh Shamsi's netlist obfuscation/deobfuscation suite.
+- **[SAT Sources](https://github.com/alirafiqmalik/SAT_src)** — SAT-tool source and build workspace with logic-locking benchmarks and solver dependencies.
+- **[Repeater Chain Optimisation](https://github.com/alirafiqmalik/RepeaterchainOptimisation)** — quantum-repeater protocol optimization code with paper-reproduction configurations.
+- **[simQKD](https://github.com/alirafiqmalik/simQKD)** — collection of QKD simulator resources, source references, and documentation.
+- **[MMSegmentation for Kaggle](https://github.com/alirafiqmalik/mmsegmentation)** — my copy of OpenMMLab's semantic-segmentation toolkit for Kaggle work.
+- **[QKD Formal-Verification Notes](https://github.com/alirafiqmalik/notes-QKD-FV)** — archived models, experiments, and notes from earlier quantum-protocol work.
+
+</details>
+
+<details>
+<summary><strong>Public forks</strong></summary>
+
+Forks of other teams' projects, listed separately from my own work; inclusion here does not imply an upstream contribution.
+
+- **[5GReasoner](https://github.com/alirafiqmalik/5GReasoner)** — formal analysis of 5G protocols.
+- **[ProtocolGPT](https://github.com/alirafiqmalik/ProtocolGPT)** — infer protocol state machines from implementations with language models.
+- **[queer](https://github.com/alirafiqmalik/queer)** — quantum-routing simulations.
+- **[Swin Transformer Semantic Segmentation](https://github.com/alirafiqmalik/Swin-Transformer-Semantic-Segmentation)** — upstream Swin-based segmentation implementation.
+- **[Model Optimizer](https://github.com/alirafiqmalik/Model-Optimizer)** — NVIDIA's model-compression and inference-optimization toolkit.
+- **[NIXL](https://github.com/alirafiqmalik/nixl)** — NVIDIA Inference Xfer Library.
+- **[Reasoning from Scratch](https://github.com/alirafiqmalik/reasoning-from-scratch)** — step-by-step reasoning-model implementation in PyTorch.
+- **[Claude Code](https://github.com/alirafiqmalik/claude-code)** — terminal-based coding agent.
+- **[TinyAGI](https://github.com/alirafiqmalik/tinyagi)** — agent-team orchestration.
+- **[Career Ops](https://github.com/alirafiqmalik/career-ops)** — local job-search and application workflows.
+- **[MixtapeTools](https://github.com/alirafiqmalik/MixtapeTools)** — tools for coding, teaching, and presentations.
+- **[LNReader](https://github.com/alirafiqmalik/lnreader)** — Android light-novel reader.
+- **[Khwarizmi Lab Website](https://github.com/alirafiqmalik/KhwarizmiLab.github.io)** — fork of the lab's website.
+
+</details>
+
+<details>
+<summary><strong>Profile, site history & placeholders</strong></summary>
+
+- **[This Profile](https://github.com/alirafiqmalik/alirafiqmalik)** — this README and its local statistics-generation workflow.
+- **[Website Prototype](https://github.com/alirafiqmalik/new_website_version_temp)** — earlier portfolio UI workspace.
+- **[Archived Website](https://github.com/alirafiqmalik/_bkkup_old_alirafiqmalik.github.io)** — archived personal-site backup.
+- **[cloud-lab-project](https://github.com/alirafiqmalik/cloud-lab-project)** — empty public placeholder.
+- **[qfml-setup](https://github.com/alirafiqmalik/qfml-setup)** — empty public placeholder.
+
+</details>
 
 ## GitHub stats
 
-![Language distribution by code bytes across the six featured public repositories; collection date and percentages are shown in the graphic.](profile/portfolio-stats.svg)
+<details>
+<summary><strong>Language snapshot · six selected public repositories</strong></summary>
 
-<sub>A dated snapshot of the two research artifacts and four engineering projects above. Percentages use GitHub-reported language bytes, including any vendored code GitHub counts; they describe repository composition, not proficiency or personal contribution. Forks, private repositories, and other projects are outside this selection. [Data & collection date](profile/portfolio-stats.json) · [Regeneration script](scripts/profile_stats.py)</sub>
+![Language distribution by code bytes across six selected public repositories; the graphic includes its collection date and percentages.](profile/portfolio-stats.svg)
+
+The snapshot covers Certified Confinement, ACH Model Checking, Unity HPC Controller, Agent Eval HPC, Local Model Router, and eSIM Research Tools. Percentages reflect GitHub-reported code bytes, including any counted vendor code; they describe repository composition. This is a selection, not an account-wide total or a measure of personal contribution.
+
+[Snapshot data](profile/portfolio-stats.json) · [Generation script](scripts/profile_stats.py)
+
+</details>
 
 ---
 
-**Interested in formal methods, security research, or research systems?** [Get in touch](mailto:ahmalik@umass.edu) or explore my [publications](https://scholar.google.com/citations?user=Vw4_jN4AAAAJ&hl=en).
+Interested in formal verification, protocol security, or research infrastructure? **[Let's connect](mailto:ahmalik@umass.edu).**
